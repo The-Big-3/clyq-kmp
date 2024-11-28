@@ -65,6 +65,9 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation)
+    implementation(libs.androidx.material3.android)
     debugImplementation(compose.uiTooling)
 }
 
