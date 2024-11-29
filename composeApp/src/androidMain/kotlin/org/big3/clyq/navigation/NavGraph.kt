@@ -18,6 +18,18 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
 import androidx.navigation.navigation
+import org.big3.clyq.ui.components.BottomNavigationBar
+import org.big3.clyq.ui.views.eventView.EventCreateScreen
+import org.big3.clyq.ui.views.eventView.EventDetailsScreen
+import org.big3.clyq.ui.views.eventView.EventEditScreen
+import org.big3.clyq.ui.views.groupView.GroupCreateScreen
+import org.big3.clyq.ui.views.groupView.GroupDetailScreen
+import org.big3.clyq.ui.views.groupView.GroupEditScreen
+import org.big3.clyq.ui.views.groupView.MyGroupScreen
+import org.big3.clyq.ui.views.homeView.HomeScreen
+import org.big3.clyq.ui.views.memberView.MembersDetailsScreen
+import org.big3.clyq.ui.views.profileView.ProfileScreen
+import org.big3.clyq.ui.views.searchView.SearchScreen
 
 @Composable
 fun MainNavGraph(
@@ -69,7 +81,7 @@ fun MainNavGraph(
             ) { backStackEntry ->
                 val arguments = requireNotNull(backStackEntry.arguments)
                 val groupId = arguments.getString("groupId") ?: ""
-                GroupDetail(
+                GroupDetailScreen (
                     groupId = groupId,
                     openMembersView = { memberType, participants ->
                         mNavController.navigateToDisplayMembers(
@@ -92,7 +104,7 @@ fun MainNavGraph(
             composable(
                 route = MainDestinations.NewGroup.route
             ) {
-                NewGroupScreen(onBackPressed = mNavController::backPressed)
+                GroupCreateScreen(onBackPressed = mNavController::backPressed)
             }
 
             composable(
@@ -222,8 +234,7 @@ private fun NavGraphBuilder.addGroupsGraph(
         route = BottomNavItem.Groups.route
     ) {
         composable(GroupSection.GroupMain.route) { from ->
-            MyGroupScreen(
-                paddingValues,
+            MyGroupScreen(paddingValues,
                 onNavigateToRoute = {
                     clyqNavController.navController.navigate(it)
                 },
@@ -236,8 +247,7 @@ private fun NavGraphBuilder.addGroupsGraph(
                 openGroupAsOwner = { groupId ->
 
                     openGroupDetail(groupId, from)
-                }
-            )
+                })
         }
 
         composable(
@@ -246,7 +256,7 @@ private fun NavGraphBuilder.addGroupsGraph(
         ) { backStackEntry ->
 
             val groupId = backStackEntry.arguments?.getString("groupId") ?: "-1"
-            EditGroupScreen(
+            GroupEditScreen(
                 paddingValues = paddingValues,
                 groupId = groupId,
                 onBackPressed = {
@@ -278,7 +288,7 @@ private fun NavGraphBuilder.addGroupsGraph(
             arguments = listOf(navArgument("groupId") { type = NavType.StringType })
         ) { backStackEntry ->
             val groupId = backStackEntry.arguments?.getString("groupId") ?: "-1"
-            CreateEventScreen(
+            EventCreateScreen(
                 paddingValues = paddingValues,
                 groupId = groupId,
                 onBackPressed = {
@@ -292,7 +302,7 @@ private fun NavGraphBuilder.addGroupsGraph(
             arguments = listOf(navArgument("eventId") { type = NavType.StringType })
         ) { backStackEntry ->
             val eventId = backStackEntry.arguments?.getString("eventId") ?: "-1"
-            EditEventScreen(
+            EventEditScreen(
                 paddingValues = paddingValues,
                 eventId = eventId,
                 openMembersView = { memberType, participants ->
