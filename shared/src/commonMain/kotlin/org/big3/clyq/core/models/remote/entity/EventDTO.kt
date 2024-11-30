@@ -1,4 +1,4 @@
-package org.big3.clyq.core.datasource.remote
+package org.big3.clyq.core.models.remote.entity
 
 data class EventDTO(
     val event: EventItemDTO

@@ -1,24 +1,23 @@
-package org.big3.clyq.core.datasource
+package org.big3.clyq.core.models
 
-import org.big3.clyq.core.datasource.remote.EventCollectionDTO
-import org.big3.clyq.core.datasource.remote.EventDTO
-import org.big3.clyq.core.datasource.remote.EventInfoDTO
-import org.big3.clyq.core.datasource.remote.EventItemDTO
-import org.big3.clyq.core.datasource.remote.EventListDTO
-import org.big3.clyq.core.datasource.remote.GroupDTO
-import org.big3.clyq.core.datasource.remote.GroupInfoDTO
-import org.big3.clyq.core.datasource.remote.GroupListDTO
-import org.big3.clyq.core.datasource.remote.ParticipantsInfoDTO
-import org.big3.clyq.core.datasource.remote.UserDTO
-import org.big3.clyq.core.datasource.remote.UserServiceDTO
-import org.big3.clyq.core.entity.EventCollectionItem
-import org.big3.clyq.core.entity.EventInfoItem
-import org.big3.clyq.core.entity.EventItem
-import org.big3.clyq.core.entity.GroupInfoItem
-import org.big3.clyq.core.entity.GroupItem
-import org.big3.clyq.core.entity.ParticipantItem
-import org.big3.clyq.core.entity.UserItem
-import org.big3.clyq.core.entity.UserServiceItem
+import org.big3.clyq.core.models.remote.entity.EventCollectionDTO
+import org.big3.clyq.core.models.remote.entity.EventInfoDTO
+import org.big3.clyq.core.models.remote.entity.EventItemDTO
+import org.big3.clyq.core.models.remote.entity.EventListDTO
+import org.big3.clyq.core.models.remote.entity.GroupDTO
+import org.big3.clyq.core.models.remote.entity.GroupInfoDTO
+import org.big3.clyq.core.models.remote.entity.GroupListDTO
+import org.big3.clyq.core.models.remote.entity.ParticipantsInfoDTO
+import org.big3.clyq.core.models.remote.entity.UserDTO
+import org.big3.clyq.core.models.remote.entity.UserServiceDTO
+import org.big3.clyq.core.models.local.entity.EventCollectionItem
+import org.big3.clyq.core.models.local.entity.EventInfoItem
+import org.big3.clyq.core.models.local.entity.EventItem
+import org.big3.clyq.core.models.local.entity.GroupInfoItem
+import org.big3.clyq.core.models.local.entity.GroupItem
+import org.big3.clyq.core.models.local.entity.ParticipantItem
+import org.big3.clyq.core.models.local.entity.UserItem
+import org.big3.clyq.core.models.local.entity.UserServiceItem
 
 class DomainDataMapperImpl : DomainDataMapper {
     override fun mapToUserDomain(userDTO: UserServiceDTO): UserServiceItem {

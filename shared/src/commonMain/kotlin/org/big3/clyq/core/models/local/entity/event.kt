@@ -1,10 +1,10 @@
-package org.big3.clyq.core.entity
+package org.big3.clyq.core.models.local.entity
 
 
 data class EventItem(
     val id:String = "",
-    val info:EventInfoItem,
-    val collection:EventCollectionItem,
+    val info: EventInfoItem,
+    val collection: EventCollectionItem,
     val participantEntity: ParticipantItem = ParticipantItem(),
     val createdAt:Long = 0L,
     val updatedAt:Long = 0L

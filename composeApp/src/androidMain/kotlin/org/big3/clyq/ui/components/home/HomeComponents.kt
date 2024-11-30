@@ -24,7 +24,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import org.big3.clyq.Utils
-import org.big3.clyq.core.entity.UserServiceItem
+import org.big3.clyq.core.models.local.entity.UserServiceItem
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale

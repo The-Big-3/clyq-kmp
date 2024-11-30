@@ -2,10 +2,10 @@ package org.big3.clyq
 
 
 import androidx.core.util.PatternsCompat
-import org.big3.clyq.core.entity.EventItem
-import org.big3.clyq.core.entity.GroupInfoItem
-import org.big3.clyq.core.entity.GroupItem
-import org.big3.clyq.core.entity.UserItem
+import org.big3.clyq.core.models.local.entity.EventItem
+import org.big3.clyq.core.models.local.entity.GroupInfoItem
+import org.big3.clyq.core.models.local.entity.GroupItem
+import org.big3.clyq.core.models.local.entity.UserItem
 import org.big3.clyq.enum.UserEventState
 import org.big3.clyq.enum.UserGroupState
 import java.time.Instant
