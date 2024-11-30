@@ -1,13 +1,18 @@
 package org.big3.clyq.core.models.remote.entity
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class EventDTO(
     val event: EventItemDTO
 )
 
+@Serializable
 data class EventListDTO(
     val events: List<EventItemDTO>
 )
 
+@Serializable
 data class EventItemDTO(
     val id: String,
     val info: EventInfoDTO,
@@ -16,7 +21,7 @@ data class EventItemDTO(
     val createdAt: Long,
     val updatedAt: Long?
 )
-
+@Serializable
 data class EventInfoDTO(
     val name: String?,
     val status: EventStatusDTO,
@@ -29,12 +34,13 @@ data class EventInfoDTO(
     val interval: Long?
 )
 
+@Serializable
 data class EventCollectionDTO(
     val collectionId: String?,
     val sequence: String?
 )
 
-enum class EventStatusDTO (val typeName: String) {
+enum class EventStatusDTO(val typeName: String) {
     UNSPECIFIED("unspecified"),
     DRAFT("draft"),
     PENDING("pending"),
@@ -44,7 +50,7 @@ enum class EventStatusDTO (val typeName: String) {
     COMPLETED("completed")
 }
 
-enum class EventTypeDTO (val typeName: String) {
+enum class EventTypeDTO(val typeName: String) {
     UNSPECIFIED("unspecified"),
     ONCE_OFF("onceOff"),
     REPEATABLE("repeatable")

@@ -4,7 +4,7 @@
             "outputFile": "org.big3.clyq.composeApp-mergeDebugResources-51:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/chih/.gradle/caches/8.9/transforms/fdacd2fc29356fa24673a383a4d208f8/transformed/core-1.13.1/res/values-v21/values-v21.xml",
+                    "source": "/Users/chih/.gradle/caches/8.9/transforms/ae22ef9b58170844f4510dd9daf41751/transformed/core-1.13.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

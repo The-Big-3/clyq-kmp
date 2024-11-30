@@ -1,5 +1,8 @@
 package org.big3.clyq.core.models.remote.entity
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class UserDTO(
     val email: String,
     val firstName: String,
@@ -7,6 +10,7 @@ data class UserDTO(
     val picture: String
 )
 
+@Serializable
 data class UserServiceDTO(
     val numberOfJoinedGroups: Long?,
     val numberOfOwnedGroups: Long?,
