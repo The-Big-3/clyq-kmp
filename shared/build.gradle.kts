@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinx.serialization)
-
+    alias(libs.plugins.org.kotlin.ksp)
 }
 
 kotlin {
@@ -33,14 +33,20 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.kotlinx.datetime)
             implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
             implementation(libs.ktor.client.json)
             implementation(libs.ktor.client.serialization)
             implementation(libs.kotlinx.serialization.json)
+            implementation(libs.ktor.client.logging)
+            implementation(libs.multiplatform.settings)
         }
 
         androidMain.dependencies {
             implementation(libs.androidx.compose.ui)
             implementation(libs.ktor.client.android)
+
+            //Data store
+            implementation(libs.data.store)
         }
 
         iosMain.dependencies {
@@ -63,5 +69,7 @@ android {
 }
 dependencies {
     implementation(libs.androidx.core.ktx)
+    implementation(libs.dagger.hilt)
+    ksp(libs.dagger.hilt.compiler)
 
 }

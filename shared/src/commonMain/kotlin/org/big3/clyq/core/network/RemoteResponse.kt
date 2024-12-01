@@ -19,6 +19,8 @@ sealed class RemoteResponseWrapper<T, E> {
 sealed class RemoteErrorWrapper: Exception() {
     data class ResponseErrorWrapper(override val message: String, val code: Int) : RemoteErrorWrapper()
     data class ServerError(val error: String?, val description: String?) : RemoteErrorWrapper()
+    data object NetworkError : RemoteErrorWrapper()
+    data object ParseError : RemoteErrorWrapper()
     companion object {
         fun failed(message: String, code: Int): RemoteErrorWrapper {
             return ResponseErrorWrapper(message, code)
