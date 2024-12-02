@@ -1,9 +1,10 @@
 package org.big3.clyq.core.network
 
 import io.ktor.client.HttpClient
+import io.ktor.client.plugins.defaultRequest
 import io.ktor.client.request.header
+import io.ktor.client.request.headers
 import io.ktor.client.request.post
-import io.ktor.client.statement.bodyAsText
 import kotlinx.serialization.json.Json
 import org.big3.clyq.constants.Constants
 import org.big3.clyq.constants.NetworkConstants
@@ -19,17 +20,23 @@ class ApiServiceImpl(
     private val client: HttpClient,
     private val tokenPref: TokenPreferences,
 ) : BaseApiService(), ApiService {
+
+
     override suspend fun getUser(): RemoteResponse<UserServiceDTO> {
 
-        val headers = mapOf(
-            Constants.ID_TOKEN_KEY to tokenPref.getIdToken(),
-            Constants.REFRESH_TOKEN_KEY to tokenPref.getRefreshToken()
-        )
+        val idToken = tokenPref.getIdToken()
+        val refreshToken = tokenPref.getRefreshToken()
+
         return makeRequest(
-            call = { client ->
-                client.post(NetworkConstants.BASE_URL + NetworkConstants.USER_SERVICE + "Me")
+            client = client,
+            call = { httpClient ->
+                httpClient.post(NetworkConstants.BASE_URL + NetworkConstants.USER_SERVICE + "Me") {
+                    headers {
+                        append(Constants.ID_TOKEN_KEY, idToken)
+                        append(Constants.REFRESH_TOKEN_KEY, refreshToken)
+                    }
+                }
             },
-            headers = headers,
             responseParser = { response ->
                 Json.decodeFromString<UserServiceDTO>(response)
             }

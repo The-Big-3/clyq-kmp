@@ -20,7 +20,7 @@ import org.big3.clyq.core.models.local.entity.UserItem
 import org.big3.clyq.core.models.local.entity.UserServiceItem
 
 class DomainDataMapperImpl : DomainDataMapper {
-    override fun mapToUserDomain(userDTO: UserServiceDTO): UserServiceItem {
+    override fun mapToUserServiceDomain(userDTO: UserServiceDTO): UserServiceItem {
         return UserServiceItem(
             numberOfOwnedGroups = (userDTO.numberOfOwnedGroups ?: 0).toInt(),
             numberOfJoinedGroups = (userDTO.numberOfJoinedGroups ?: 0).toInt(),

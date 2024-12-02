@@ -21,7 +21,7 @@ import org.big3.clyq.core.models.local.entity.UserServiceItem
 
 interface DomainDataMapper {
 
-    fun mapToUserDomain(userDTO: UserServiceDTO): UserServiceItem
+    fun mapToUserServiceDomain(userDTO: UserServiceDTO): UserServiceItem
 
     fun mapToUserDomain(userDTO: UserDTO): UserItem
 
