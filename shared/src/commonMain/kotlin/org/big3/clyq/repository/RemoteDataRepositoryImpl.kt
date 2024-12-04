@@ -4,7 +4,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import org.big3.clyq.core.models.DomainDataMapper
-import org.big3.clyq.core.models.DomainDataMapperImpl
 import org.big3.clyq.core.models.local.entity.EventInfoItem
 import org.big3.clyq.core.models.local.entity.EventItem
 import org.big3.clyq.core.models.local.entity.GroupInfoItem
@@ -12,29 +11,29 @@ import org.big3.clyq.core.models.local.entity.GroupItem
 import org.big3.clyq.core.models.local.entity.UserItem
 import org.big3.clyq.core.models.local.entity.UserServiceItem
 import org.big3.clyq.core.network.ApiService
+import org.big3.clyq.core.network.RemoteErrorWrapper
 import org.big3.clyq.core.network.RemoteResponse
 import org.big3.clyq.core.network.RemoteResponseWrapper
 import org.big3.clyq.interfaces.RemoteDataRepository
-import javax.inject.Inject
 
-class RemoteDataRepository @Inject constructor(
-    val apiService: ApiService,
-    val dataMapper: DomainDataMapper,
+class RemoteDataRepositoryImpl(
+    private val apiService: ApiService,
+    private val dataMapper: DomainDataMapper,
 ):RemoteDataRepository {
 
     override suspend fun fetchUser(): Flow<RemoteResponse<UserServiceItem>> {
-        return flow {
-            val domainResponse = when (val response = apiService.getUser()) {
-                is RemoteResponseWrapper.Success -> {
-                    val userDomain = dataMapper.mapToUserServiceDomain(response.body)
-                    RemoteResponseWrapper.createSuccess(userDomain)
+        return flow<RemoteResponse<UserServiceItem>> {
+            when(val response = apiService.getUser()){
+                is RemoteResponseWrapper.Success ->{
+                    val mappedData = dataMapper.mapToUserServiceDomain(response.body)
+                    emit(RemoteResponseWrapper.createSuccess(mappedData,response.headers))
                 }
-                is RemoteResponseWrapper.Error -> response
+                is RemoteResponseWrapper.Error ->{
+                    emit(RemoteResponseWrapper.createError(response.error, response.headers))
+                }
             }
-
-            emit(domainResponse)
-        }.catch { e ->
-            emit(RemoteResponseWrapper.createError())
+        }.catch {
+            emit(RemoteResponseWrapper.createError(RemoteErrorWrapper.NetworkError))
         }
     }
 

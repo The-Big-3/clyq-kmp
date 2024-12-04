@@ -14,4 +14,6 @@ interface TokenPreferences {
 
     suspend fun getRefreshToken():String
 
+    suspend fun clearToken()
+
 }

@@ -1,59 +1,72 @@
-org.big3.clyq.composeApp-animation-core-release-0 /Users/chih/.gradle/caches/8.9/transforms/0293d3705f23694374e8252fdd670d31/transformed/animation-core-release/res
-org.big3.clyq.composeApp-navigation-common-2.8.4-1 /Users/chih/.gradle/caches/8.9/transforms/059dc38d0dd78003cb7e7a706e24f9c2/transformed/navigation-common-2.8.4/res
-org.big3.clyq.composeApp-lifecycle-viewmodel-compose-release-2 /Users/chih/.gradle/caches/8.9/transforms/0cabfca64d646872d9409c7309fd4d74/transformed/lifecycle-viewmodel-compose-release/res
-org.big3.clyq.composeApp-navigation-compose-2.8.4-3 /Users/chih/.gradle/caches/8.9/transforms/12f18fbb11e715ad028983b6dbcbe5c7/transformed/navigation-compose-2.8.4/res
-org.big3.clyq.composeApp-core-ktx-1.13.1-4 /Users/chih/.gradle/caches/8.9/transforms/1a9445d1978f5b76afea98c51d248b71/transformed/core-ktx-1.13.1/res
-org.big3.clyq.composeApp-runtime-release-5 /Users/chih/.gradle/caches/8.9/transforms/205ee5ee1ce496f50e81d5b80584b189/transformed/runtime-release/res
-org.big3.clyq.composeApp-lifecycle-viewmodel-ktx-2.8.5-6 /Users/chih/.gradle/caches/8.9/transforms/207e78d147a107ec88d48951fe0bb86a/transformed/lifecycle-viewmodel-ktx-2.8.5/res
-org.big3.clyq.composeApp-ui-tooling-preview-release-7 /Users/chih/.gradle/caches/8.9/transforms/212fe1e449db47c999dedbf9c9f0fd50/transformed/ui-tooling-preview-release/res
-org.big3.clyq.composeApp-savedstate-1.2.1-8 /Users/chih/.gradle/caches/8.9/transforms/218a3fda6bb06dd507a23aaa786b3127/transformed/savedstate-1.2.1/res
-org.big3.clyq.composeApp-lifecycle-viewmodel-release-9 /Users/chih/.gradle/caches/8.9/transforms/28b877fb9bb2f32e8a94e916fd28a954/transformed/lifecycle-viewmodel-release/res
-org.big3.clyq.composeApp-ui-util-release-10 /Users/chih/.gradle/caches/8.9/transforms/2dfbc807719c7c12849215db06688ec6/transformed/ui-util-release/res
-org.big3.clyq.composeApp-ui-release-11 /Users/chih/.gradle/caches/8.9/transforms/3ece756c7bd71f62f465933932ac6729/transformed/ui-release/res
-org.big3.clyq.composeApp-navigation-runtime-2.8.4-12 /Users/chih/.gradle/caches/8.9/transforms/41e5f01f3081901c916555a69eede6cd/transformed/navigation-runtime-2.8.4/res
-org.big3.clyq.composeApp-navigation-common-ktx-2.8.4-13 /Users/chih/.gradle/caches/8.9/transforms/44703432c8802ae92cca38d50d081af8/transformed/navigation-common-ktx-2.8.4/res
-org.big3.clyq.composeApp-material-release-14 /Users/chih/.gradle/caches/8.9/transforms/4617b13b797533d904f478d0e238d4c2/transformed/material-release/res
-org.big3.clyq.composeApp-material-ripple-release-15 /Users/chih/.gradle/caches/8.9/transforms/4f9930bd8f8af207beb9cadfe6fcca16/transformed/material-ripple-release/res
-org.big3.clyq.composeApp-animation-release-16 /Users/chih/.gradle/caches/8.9/transforms/54ed915d48bcbb88c66b119a0ddedfce/transformed/animation-release/res
-org.big3.clyq.composeApp-ui-tooling-release-17 /Users/chih/.gradle/caches/8.9/transforms/589d76611320948d0a6b34ca2cd4d5a7/transformed/ui-tooling-release/res
-org.big3.clyq.composeApp-ui-graphics-release-18 /Users/chih/.gradle/caches/8.9/transforms/636b39df0396db098f3160dba266ee87/transformed/ui-graphics-release/res
-org.big3.clyq.composeApp-lifecycle-runtime-ktx-release-19 /Users/chih/.gradle/caches/8.9/transforms/6ab45865101a20c28890b17c6d210622/transformed/lifecycle-runtime-ktx-release/res
-org.big3.clyq.composeApp-ui-unit-release-20 /Users/chih/.gradle/caches/8.9/transforms/77ba4e75026134dad2d698378596bde8/transformed/ui-unit-release/res
-org.big3.clyq.composeApp-material-icons-core-release-21 /Users/chih/.gradle/caches/8.9/transforms/79325f6ba0da48ea7fdb9891f3085529/transformed/material-icons-core-release/res
-org.big3.clyq.composeApp-lifecycle-runtime-compose-release-22 /Users/chih/.gradle/caches/8.9/transforms/7b1aa7482e56790385167e3b787933bc/transformed/lifecycle-runtime-compose-release/res
-org.big3.clyq.composeApp-activity-ktx-1.9.3-23 /Users/chih/.gradle/caches/8.9/transforms/8c0ee2c3f4565bcc4174da0644fff9bd/transformed/activity-ktx-1.9.3/res
-org.big3.clyq.composeApp-coil-base-2.6.0-24 /Users/chih/.gradle/caches/8.9/transforms/8e882919b8d497ae2487a336ba6743a6/transformed/coil-base-2.6.0/res
-org.big3.clyq.composeApp-ui-geometry-release-25 /Users/chih/.gradle/caches/8.9/transforms/93e422708f2bbc1f02395c2b5709b2ed/transformed/ui-geometry-release/res
-org.big3.clyq.composeApp-lifecycle-viewmodel-savedstate-2.8.5-26 /Users/chih/.gradle/caches/8.9/transforms/99dbf3cd08aba31dee05d824c05a3ea7/transformed/lifecycle-viewmodel-savedstate-2.8.5/res
-org.big3.clyq.composeApp-lifecycle-process-2.8.5-27 /Users/chih/.gradle/caches/8.9/transforms/9add41fb2b4894c5bdb6c0701c480a89/transformed/lifecycle-process-2.8.5/res
-org.big3.clyq.composeApp-ui-tooling-data-release-28 /Users/chih/.gradle/caches/8.9/transforms/a085fd54ff323df209c4d09baed69fc3/transformed/ui-tooling-data-release/res
-org.big3.clyq.composeApp-foundation-release-29 /Users/chih/.gradle/caches/8.9/transforms/aca6eda937c4f3ef6412a95edf8289cd/transformed/foundation-release/res
-org.big3.clyq.composeApp-core-1.13.1-30 /Users/chih/.gradle/caches/8.9/transforms/ae22ef9b58170844f4510dd9daf41751/transformed/core-1.13.1/res
-org.big3.clyq.composeApp-annotation-experimental-1.4.1-31 /Users/chih/.gradle/caches/8.9/transforms/b2baf0f336a3de054d0720a80859a480/transformed/annotation-experimental-1.4.1/res
-org.big3.clyq.composeApp-runtime-saveable-release-32 /Users/chih/.gradle/caches/8.9/transforms/b58a90720b08d5cf46f66bfc29009111/transformed/runtime-saveable-release/res
-org.big3.clyq.composeApp-appcompat-resources-1.6.1-33 /Users/chih/.gradle/caches/8.9/transforms/c12e4cc875494e6ce49d332e3c4206e3/transformed/appcompat-resources-1.6.1/res
-org.big3.clyq.composeApp-navigation-runtime-ktx-2.8.4-34 /Users/chih/.gradle/caches/8.9/transforms/c5d9dcb4dca800ff1be5bed8aee402da/transformed/navigation-runtime-ktx-2.8.4/res
-org.big3.clyq.composeApp-foundation-layout-release-35 /Users/chih/.gradle/caches/8.9/transforms/c91ea230e48c946e8da54f933950a37b/transformed/foundation-layout-release/res
-org.big3.clyq.composeApp-savedstate-ktx-1.2.1-36 /Users/chih/.gradle/caches/8.9/transforms/ca1350e5409b9d11960596d5a7dba645/transformed/savedstate-ktx-1.2.1/res
-org.big3.clyq.composeApp-ui-text-release-37 /Users/chih/.gradle/caches/8.9/transforms/cbaeafd10faa6241006379012d7bcb06/transformed/ui-text-release/res
-org.big3.clyq.composeApp-lifecycle-livedata-core-2.8.5-38 /Users/chih/.gradle/caches/8.9/transforms/d10f903bf36c4dcb3a021a19c6f8fc3b/transformed/lifecycle-livedata-core-2.8.5/res
-org.big3.clyq.composeApp-profileinstaller-1.3.1-39 /Users/chih/.gradle/caches/8.9/transforms/d2a5c8630b59bdad51b666f3cdc560cd/transformed/profileinstaller-1.3.1/res
-org.big3.clyq.composeApp-customview-poolingcontainer-1.0.0-40 /Users/chih/.gradle/caches/8.9/transforms/dc585c2959c95f9a91182f7b43af3c15/transformed/customview-poolingcontainer-1.0.0/res
-org.big3.clyq.composeApp-startup-runtime-1.1.1-41 /Users/chih/.gradle/caches/8.9/transforms/dcb4174789a5b5ac3ffa5a49e7450b85/transformed/startup-runtime-1.1.1/res
-org.big3.clyq.composeApp-emoji2-1.3.0-42 /Users/chih/.gradle/caches/8.9/transforms/dedd4d21c63ba9fa83254b3411bca425/transformed/emoji2-1.3.0/res
-org.big3.clyq.composeApp-material3-release-43 /Users/chih/.gradle/caches/8.9/transforms/e03214ff610e92a3a132b346117e7a1c/transformed/material3-release/res
-org.big3.clyq.composeApp-activity-compose-1.9.3-44 /Users/chih/.gradle/caches/8.9/transforms/e48bb86f13cc2a8ccc786637a425f234/transformed/activity-compose-1.9.3/res
-org.big3.clyq.composeApp-activity-1.9.3-45 /Users/chih/.gradle/caches/8.9/transforms/f3e95a55be39ea3990091b7cf255a5eb/transformed/activity-1.9.3/res
-org.big3.clyq.composeApp-lifecycle-runtime-release-46 /Users/chih/.gradle/caches/8.9/transforms/f820d71607e18aa6339a71bc0ac7c1ed/transformed/lifecycle-runtime-release/res
-org.big3.clyq.composeApp-graphics-path-1.0.1-47 /Users/chih/.gradle/caches/8.9/transforms/f863c9d9c13bcad99063561e1b0601cb/transformed/graphics-path-1.0.1/res
-org.big3.clyq.composeApp-core-runtime-2.2.0-48 /Users/chih/.gradle/caches/8.9/transforms/fc2bd9509b6bb0d61a1da7859f695fba/transformed/core-runtime-2.2.0/res
-org.big3.clyq.composeApp-pngs-49 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/generated/res/pngs/debug
-org.big3.clyq.composeApp-resValues-50 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/generated/res/resValues/debug
-org.big3.clyq.composeApp-packageDebugResources-51 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-org.big3.clyq.composeApp-packageDebugResources-52 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-org.big3.clyq.composeApp-debug-53 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/merged_res/debug/mergeDebugResources
-org.big3.clyq.composeApp-androidDebug-54 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidDebug/res
-org.big3.clyq.composeApp-androidMain-55 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/res
-org.big3.clyq.composeApp-debug-56 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/debug/res
-org.big3.clyq.composeApp-main-57 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/main/res
-org.big3.clyq.composeApp-debug-58 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/packaged_res/debug/packageDebugResources
+org.big3.clyq.composeApp-ui-release-0 /Users/chih/.gradle/caches/8.9/transforms/0a11edfd9b3a4b66a801083ab0b009f8/transformed/ui-release/res
+org.big3.clyq.composeApp-fragment-ktx-1.6.2-1 /Users/chih/.gradle/caches/8.9/transforms/0dc574ed24494a1f56bbd49acd7bfbf3/transformed/fragment-ktx-1.6.2/res
+org.big3.clyq.composeApp-savedstate-1.2.1-2 /Users/chih/.gradle/caches/8.9/transforms/0f6b707724dc66fe5540dae2a21b14b5/transformed/savedstate-1.2.1/res
+org.big3.clyq.composeApp-runtime-saveable-release-3 /Users/chih/.gradle/caches/8.9/transforms/13337d07094e9fc48cca998d139625b5/transformed/runtime-saveable-release/res
+org.big3.clyq.composeApp-ui-tooling-preview-release-4 /Users/chih/.gradle/caches/8.9/transforms/1b62f41b73ff10c742bc3579385db7e5/transformed/ui-tooling-preview-release/res
+org.big3.clyq.composeApp-lifecycle-livedata-core-2.8.5-5 /Users/chih/.gradle/caches/8.9/transforms/1e1b99a4210dfe6e8238fb6ab8220968/transformed/lifecycle-livedata-core-2.8.5/res
+org.big3.clyq.composeApp-tracing-1.2.0-6 /Users/chih/.gradle/caches/8.9/transforms/1ef768fc21e0b4538445f8deef064cb1/transformed/tracing-1.2.0/res
+org.big3.clyq.composeApp-emoji2-1.3.0-7 /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/res
+org.big3.clyq.composeApp-datastore-core-release-8 /Users/chih/.gradle/caches/8.9/transforms/26c0a218faf770b54dd3fb5d1a61f75b/transformed/datastore-core-release/res
+org.big3.clyq.composeApp-material-ripple-release-9 /Users/chih/.gradle/caches/8.9/transforms/2e51660e65ab4af697e20e27fde23f81/transformed/material-ripple-release/res
+org.big3.clyq.composeApp-androidbrowserhelper-2.4.0-10 /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/res
+org.big3.clyq.composeApp-lifecycle-viewmodel-release-11 /Users/chih/.gradle/caches/8.9/transforms/395e3c0ce749f5e7aeac2df429b3330c/transformed/lifecycle-viewmodel-release/res
+org.big3.clyq.composeApp-material-release-12 /Users/chih/.gradle/caches/8.9/transforms/3d6576de297a86662bf8ccc541e880a4/transformed/material-release/res
+org.big3.clyq.composeApp-core-ktx-1.15.0-13 /Users/chih/.gradle/caches/8.9/transforms/41a3e21fb73767bb7563a1d33228ccb6/transformed/core-ktx-1.15.0/res
+org.big3.clyq.composeApp-lifecycle-runtime-release-14 /Users/chih/.gradle/caches/8.9/transforms/41f101c15bb0c318058932ded16be5bf/transformed/lifecycle-runtime-release/res
+org.big3.clyq.composeApp-navigation-runtime-ktx-2.8.4-15 /Users/chih/.gradle/caches/8.9/transforms/453e3eeb74bf1432eead31039a8884e1/transformed/navigation-runtime-ktx-2.8.4/res
+org.big3.clyq.composeApp-activity-ktx-1.9.3-16 /Users/chih/.gradle/caches/8.9/transforms/477b8c2a53d0ddcf1dbd13c56409de46/transformed/activity-ktx-1.9.3/res
+org.big3.clyq.composeApp-lifecycle-viewmodel-compose-release-17 /Users/chih/.gradle/caches/8.9/transforms/491364e33139c4e7611ff65fdc6e0075/transformed/lifecycle-viewmodel-compose-release/res
+org.big3.clyq.composeApp-core-runtime-2.2.0-18 /Users/chih/.gradle/caches/8.9/transforms/4d8ec1814c357bd0cc91af4f30154a06/transformed/core-runtime-2.2.0/res
+org.big3.clyq.composeApp-lifecycle-viewmodel-ktx-2.8.5-19 /Users/chih/.gradle/caches/8.9/transforms/519383cec93e3e1904cc692adec1f3fe/transformed/lifecycle-viewmodel-ktx-2.8.5/res
+org.big3.clyq.composeApp-navigation-compose-2.8.4-20 /Users/chih/.gradle/caches/8.9/transforms/5234e7d5a1dabab07f6dc301e06f2d56/transformed/navigation-compose-2.8.4/res
+org.big3.clyq.composeApp-appcompat-1.6.1-21 /Users/chih/.gradle/caches/8.9/transforms/6ada73fdd28245a1c44b57db5edd9c48/transformed/appcompat-1.6.1/res
+org.big3.clyq.composeApp-ui-text-release-22 /Users/chih/.gradle/caches/8.9/transforms/6ddf032547d4f895b68cb36960b514ad/transformed/ui-text-release/res
+org.big3.clyq.composeApp-ui-unit-release-23 /Users/chih/.gradle/caches/8.9/transforms/6f86bfc19cb8eb0475b19ce2a54dacb4/transformed/ui-unit-release/res
+org.big3.clyq.composeApp-ui-util-release-24 /Users/chih/.gradle/caches/8.9/transforms/70b71400906eb9bba292c4943dfb2b04/transformed/ui-util-release/res
+org.big3.clyq.composeApp-emoji2-views-helper-1.3.0-25 /Users/chih/.gradle/caches/8.9/transforms/73338e47c7431aaad18c88317019265e/transformed/emoji2-views-helper-1.3.0/res
+org.big3.clyq.composeApp-datastore-preferences-release-26 /Users/chih/.gradle/caches/8.9/transforms/74a58b43ab57a817e839100791eebbe4/transformed/datastore-preferences-release/res
+org.big3.clyq.composeApp-animation-release-27 /Users/chih/.gradle/caches/8.9/transforms/79edea0580d472a984c665b63db8fdd9/transformed/animation-release/res
+org.big3.clyq.composeApp-startup-runtime-1.1.1-28 /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/res
+org.big3.clyq.composeApp-navigation-common-ktx-2.8.4-29 /Users/chih/.gradle/caches/8.9/transforms/7b34780598acb45014d89bf71584d16c/transformed/navigation-common-ktx-2.8.4/res
+org.big3.clyq.composeApp-ui-graphics-release-30 /Users/chih/.gradle/caches/8.9/transforms/7e85589706207b6b50d499b20c4e4277/transformed/ui-graphics-release/res
+org.big3.clyq.composeApp-profileinstaller-1.3.1-31 /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/res
+org.big3.clyq.composeApp-lifecycle-livedata-2.8.5-32 /Users/chih/.gradle/caches/8.9/transforms/8b0c76ece22886d076a4b7e1fa05e1c0/transformed/lifecycle-livedata-2.8.5/res
+org.big3.clyq.composeApp-navigation-common-2.8.4-33 /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/res
+org.big3.clyq.composeApp-ui-tooling-data-release-34 /Users/chih/.gradle/caches/8.9/transforms/94ff5dddabed5a06cf42c9352fd8e556/transformed/ui-tooling-data-release/res
+org.big3.clyq.composeApp-material-icons-core-release-35 /Users/chih/.gradle/caches/8.9/transforms/9aa33ce5ef76dcceb6b4b8adf32ca92b/transformed/material-icons-core-release/res
+org.big3.clyq.composeApp-ui-geometry-release-36 /Users/chih/.gradle/caches/8.9/transforms/9e14de297fbcd3921825cb8fb6e678e0/transformed/ui-geometry-release/res
+org.big3.clyq.composeApp-navigation-runtime-2.8.4-37 /Users/chih/.gradle/caches/8.9/transforms/9fbecde6f474d69e9f9354732b52108c/transformed/navigation-runtime-2.8.4/res
+org.big3.clyq.composeApp-core-1.15.0-38 /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/res
+org.big3.clyq.composeApp-foundation-layout-release-39 /Users/chih/.gradle/caches/8.9/transforms/a268d6fcb38151cd4bcea146416922c3/transformed/foundation-layout-release/res
+org.big3.clyq.composeApp-lifecycle-process-2.8.5-40 /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/res
+org.big3.clyq.composeApp-fragment-1.6.2-41 /Users/chih/.gradle/caches/8.9/transforms/abbe1f856323ddd978016c0d4f8c2fd7/transformed/fragment-1.6.2/res
+org.big3.clyq.composeApp-activity-compose-1.9.3-42 /Users/chih/.gradle/caches/8.9/transforms/ae028985e34ce85ae9e96c1b73689c98/transformed/activity-compose-1.9.3/res
+org.big3.clyq.composeApp-lifecycle-runtime-ktx-release-43 /Users/chih/.gradle/caches/8.9/transforms/b52d639194aee29a6ea297030137e919/transformed/lifecycle-runtime-ktx-release/res
+org.big3.clyq.composeApp-annotation-experimental-1.4.1-44 /Users/chih/.gradle/caches/8.9/transforms/ba8ff066096654f40382d700bf6ab0bc/transformed/annotation-experimental-1.4.1/res
+org.big3.clyq.composeApp-lifecycle-runtime-compose-release-45 /Users/chih/.gradle/caches/8.9/transforms/c186dd7132bd6e03af347f168e872917/transformed/lifecycle-runtime-compose-release/res
+org.big3.clyq.composeApp-lifecycle-viewmodel-savedstate-2.8.5-46 /Users/chih/.gradle/caches/8.9/transforms/c4482aee69231e774feef14da81c8ba7/transformed/lifecycle-viewmodel-savedstate-2.8.5/res
+org.big3.clyq.composeApp-material3-release-47 /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/res
+org.big3.clyq.composeApp-runtime-release-48 /Users/chih/.gradle/caches/8.9/transforms/c76075077111c7baebb0fd59e632ebfa/transformed/runtime-release/res
+org.big3.clyq.composeApp-datastore-release-49 /Users/chih/.gradle/caches/8.9/transforms/c7e30a3a2ebf9fdce2ed3c8492c1318c/transformed/datastore-release/res
+org.big3.clyq.composeApp-savedstate-ktx-1.2.1-50 /Users/chih/.gradle/caches/8.9/transforms/d1f24433ee28e61f93c9ef429dc3eb37/transformed/savedstate-ktx-1.2.1/res
+org.big3.clyq.composeApp-browser-1.4.0-51 /Users/chih/.gradle/caches/8.9/transforms/d45a528d93425ec6d13e569683edac5f/transformed/browser-1.4.0/res
+org.big3.clyq.composeApp-customview-poolingcontainer-1.0.0-52 /Users/chih/.gradle/caches/8.9/transforms/da09d7c0801fed41e14c8ae0730c9272/transformed/customview-poolingcontainer-1.0.0/res
+org.big3.clyq.composeApp-foundation-release-53 /Users/chih/.gradle/caches/8.9/transforms/df093f9d8bfe4a1c64e7e2afe8bae996/transformed/foundation-release/res
+org.big3.clyq.composeApp-activity-1.9.3-54 /Users/chih/.gradle/caches/8.9/transforms/e74a2214889c436475151bd1267180de/transformed/activity-1.9.3/res
+org.big3.clyq.composeApp-auth0-2.11.0-55 /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/res
+org.big3.clyq.composeApp-graphics-path-1.0.1-56 /Users/chih/.gradle/caches/8.9/transforms/e8a460aa2f56e2a336ca0b8ee7d98e0a/transformed/graphics-path-1.0.1/res
+org.big3.clyq.composeApp-ui-tooling-release-57 /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/res
+org.big3.clyq.composeApp-animation-core-release-58 /Users/chih/.gradle/caches/8.9/transforms/f848a9d33898b513edf78abc3881a2e6/transformed/animation-core-release/res
+org.big3.clyq.composeApp-appcompat-resources-1.6.1-59 /Users/chih/.gradle/caches/8.9/transforms/fb8c1608af7a02f019343afc6e3243bd/transformed/appcompat-resources-1.6.1/res
+org.big3.clyq.composeApp-coil-base-2.6.0-60 /Users/chih/.gradle/caches/8.9/transforms/fdb29859967dbd90edcb3fb9b98f60cb/transformed/coil-base-2.6.0/res
+org.big3.clyq.composeApp-lifecycle-livedata-core-ktx-2.8.5-61 /Users/chih/.gradle/caches/8.9/transforms/fe62f3882499c95274066d848170afc8/transformed/lifecycle-livedata-core-ktx-2.8.5/res
+org.big3.clyq.composeApp-pngs-62 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/generated/res/pngs/debug
+org.big3.clyq.composeApp-resValues-63 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/generated/res/resValues/debug
+org.big3.clyq.composeApp-packageDebugResources-64 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.big3.clyq.composeApp-packageDebugResources-65 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.big3.clyq.composeApp-debug-66 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/merged_res/debug/mergeDebugResources
+org.big3.clyq.composeApp-androidDebug-67 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidDebug/res
+org.big3.clyq.composeApp-androidMain-68 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/res
+org.big3.clyq.composeApp-debug-69 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/debug/res
+org.big3.clyq.composeApp-main-70 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/main/res
+org.big3.clyq.composeApp-debug-71 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/packaged_res/debug/packageDebugResources

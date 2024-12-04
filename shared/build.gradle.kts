@@ -5,7 +5,6 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinx.serialization)
-    alias(libs.plugins.org.kotlin.ksp)
 }
 
 kotlin {
@@ -15,7 +14,7 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_17)
         }
     }
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -26,27 +25,39 @@ kotlin {
             isStatic = true
         }
     }
-    
+
     sourceSets {
+
         commonMain.dependencies {
             // put your Multiplatform dependencies here
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.kotlinx.datetime)
+
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.ktor.client.json)
             implementation(libs.ktor.client.serialization)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.ktor.client.logging)
+            implementation(libs.ktor.client.cio)
+
             implementation(libs.multiplatform.settings)
+            //koin
+            implementation(libs.koin.core)
         }
 
         androidMain.dependencies {
             implementation(libs.androidx.compose.ui)
+            //ktor
             implementation(libs.ktor.client.android)
-
             //Data store
             implementation(libs.data.store)
+            //Auth0
+            implementation(libs.auth0.android)
+            implementation(libs.jwtdecode)
+
+            //Koin
+            implementation(libs.koin.android)
         }
 
         iosMain.dependencies {
@@ -65,11 +76,11 @@ android {
     }
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
+        manifestPlaceholders["auth0Domain"] = "dev-j8fde724yfmga0ao.us.auth0.com"
+        manifestPlaceholders["auth0Scheme"] = "clyq"
     }
 }
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation(libs.dagger.hilt)
-    ksp(libs.dagger.hilt.compiler)
-
 }
+

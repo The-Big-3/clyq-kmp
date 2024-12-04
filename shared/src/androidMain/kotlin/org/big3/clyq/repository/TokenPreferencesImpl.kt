@@ -31,4 +31,8 @@ class TokenPreferencesImpl(private val settings: Settings) : TokenPreferences {
     override suspend fun getRefreshToken(): String {
         return settings[Constants.REFRESH_TOKEN_KEY]?:""
     }
+
+    override suspend fun clearToken() {
+        settings.clear()
+    }
 }

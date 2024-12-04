@@ -17,7 +17,7 @@ import org.big3.clyq.core.models.remote.entity.UserServiceDTO
 import org.big3.clyq.interfaces.TokenPreferences
 
 class ApiServiceImpl(
-    private val client: HttpClient,
+    private val client: NetworkClient,
     private val tokenPref: TokenPreferences,
 ) : BaseApiService(), ApiService {
 
@@ -28,7 +28,7 @@ class ApiServiceImpl(
         val refreshToken = tokenPref.getRefreshToken()
 
         return makeRequest(
-            client = client,
+            client = client.client,
             call = { httpClient ->
                 httpClient.post(NetworkConstants.BASE_URL + NetworkConstants.USER_SERVICE + "Me") {
                     headers {

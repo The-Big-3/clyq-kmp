@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    alias(libs.plugins.org.kotlin.ksp)
+
 }
 
 kotlin {
@@ -17,13 +17,14 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_17)
         }
     }
-    
+
     sourceSets {
-        
+
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
             implementation(libs.coil.compose)
+
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -49,6 +50,9 @@ android {
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
         versionName = "1.0"
+
+        manifestPlaceholders["auth0Domain"] = "dev-j8fde724yfmga0ao.us.auth0.com"
+        manifestPlaceholders["auth0Scheme"] = "clyq"
     }
     packaging {
         resources {
@@ -64,12 +68,29 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
+
+    implementation(project(":shared"))
+
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.navigation)
     implementation(libs.androidx.material3.android)
     debugImplementation(compose.uiTooling)
+
+    //Auth0
+    implementation(libs.auth0.android)
+    implementation(libs.jwtdecode)
+
+    //Multiplatform settings
+    implementation(libs.multiplatform.settings)
+
+    //koin
+    implementation(libs.koin.android)
+    implementation(libs.koin.compose)
 }
 
