@@ -1,0 +1,504 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/9fbecde6f474d69e9f9354732b52108c/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/7b34780598acb45014d89bf71584d16c/transformed/navigation-common-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/453e3eeb74bf1432eead31039a8884e1/transformed/navigation-runtime-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/5234e7d5a1dabab07f6dc301e06f2d56/transformed/navigation-compose-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/6cc0aca794e5394e6977c3f0155b0937/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:4:1-50:12
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/f3c21d724301d6eeb1f30fa4cfbbd510/transformed/coil-compose-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/d99940034ff8236519851385b2526486/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/32c8cce2d583b0e98ad4462deedcd40d/transformed/coil-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/fdb29859967dbd90edcb3fb9b98f60cb/transformed/coil-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/chih/.gradle/caches/8.9/transforms/fb8c1608af7a02f019343afc6e3243bd/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/chih/.gradle/caches/8.9/transforms/6ada73fdd28245a1c44b57db5edd9c48/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/chih/.gradle/caches/8.9/transforms/abbe1f856323ddd978016c0d4f8c2fd7/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/chih/.gradle/caches/8.9/transforms/0dc574ed24494a1f56bbd49acd7bfbf3/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/e74a2214889c436475151bd1267180de/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.compose.material:material-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/3d6576de297a86662bf8ccc541e880a4/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f848a9d33898b513edf78abc3881a2e6/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/2e51660e65ab4af697e20e27fde23f81/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/79edea0580d472a984c665b63db8fdd9/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/a268d6fcb38151cd4bcea146416922c3/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/df093f9d8bfe4a1c64e7e2afe8bae996/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/94ff5dddabed5a06cf42c9352fd8e556/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/6f86bfc19cb8eb0475b19ce2a54dacb4/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/7e85589706207b6b50d499b20c4e4277/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/9e14de297fbcd3921825cb8fb6e678e0/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/70b71400906eb9bba292c4943dfb2b04/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/6ddf032547d4f895b68cb36960b514ad/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/1b62f41b73ff10c742bc3579385db7e5/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/chih/.gradle/caches/8.9/transforms/18a04ec5d6c5973daf6cb9afee74ec22/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/9aa33ce5ef76dcceb6b4b8adf32ca92b/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/chih/.gradle/caches/8.9/transforms/d1f24433ee28e61f93c9ef429dc3eb37/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/da09d7c0801fed41e14c8ae0730c9272/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/41a3e21fb73767bb7563a1d33228ccb6/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/chih/.gradle/caches/8.9/transforms/d45a528d93425ec6d13e569683edac5f/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/c56219bac3608f292be4c8506d784371/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/73338e47c7431aaad18c88317019265e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/e89b9f36f89df7adede8e1a0d19475c9/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chih/.gradle/caches/8.9/transforms/b8ff1a924c01a51c386399a6edfd9caf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chih/.gradle/caches/8.9/transforms/534dcc7ef92e51caf20b44e1567d60f8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/1081bd55e3b92c5b1bc0d94f8d69df2d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/6760320c7e9d8ba3a0e87e986a8e6a7d/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/216f614c548f1e6380edb6ba34749833/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/chih/.gradle/caches/8.9/transforms/e8a460aa2f56e2a336ca0b8ee7d98e0a/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/8b0c76ece22886d076a4b7e1fa05e1c0/transformed/lifecycle-livedata-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/b52d639194aee29a6ea297030137e919/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/1e1b99a4210dfe6e8238fb6ab8220968/transformed/lifecycle-livedata-core-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/519383cec93e3e1904cc692adec1f3fe/transformed/lifecycle-viewmodel-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/fe62f3882499c95274066d848170afc8/transformed/lifecycle-livedata-core-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/41f101c15bb0c318058932ded16be5bf/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/c4482aee69231e774feef14da81c8ba7/transformed/lifecycle-viewmodel-savedstate-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chih/.gradle/caches/8.9/transforms/0f6b707724dc66fe5540dae2a21b14b5/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/c186dd7132bd6e03af347f168e872917/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/2712a40b00aac444724ad9c2af246b3c/transformed/lifecycle-viewmodel-2.8.5/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/395e3c0ce749f5e7aeac2df429b3330c/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/491364e33139c4e7611ff65fdc6e0075/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/0a11edfd9b3a4b66a801083ab0b009f8/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/477b8c2a53d0ddcf1dbd13c56409de46/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/ae028985e34ce85ae9e96c1b73689c98/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/9c6a339d66613d7198e0cad82354a91d/transformed/library-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/78a052fb5ab0a2f3be743169e72a851b/transformed/multiplatform-settings-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/13337d07094e9fc48cca998d139625b5/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/c76075077111c7baebb0fd59e632ebfa/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/26c0a218faf770b54dd3fb5d1a61f75b/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/c7e30a3a2ebf9fdce2ed3c8492c1318c/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/74a58b43ab57a817e839100791eebbe4/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/chih/.gradle/caches/8.9/transforms/ba8ff066096654f40382d700bf6ab0bc/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.auth0.android:jwtdecode:2.0.0] /Users/chih/.gradle/caches/8.9/transforms/fb07f4268163777db8e315dc9a3cbb42/transformed/jwtdecode-2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/chih/.gradle/caches/8.9/transforms/4d8ec1814c357bd0cc91af4f30154a06/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/fd915f8712ec02f58aa01c59bc3361f9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/1a267f99f2aeb81d7c1508e9e7e9fde4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/chih/.gradle/caches/8.9/transforms/57d7aa0bbe86f526d668f8e1249eb895/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/chih/.gradle/caches/8.9/transforms/1ef768fc21e0b4538445f8deef064cb1/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+	package
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:4:5-66
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:12:5-67
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:7:5-25:19
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:7:5-25:19
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:24:5-48:19
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:24:5-48:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:14:9-72
+	android:name
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:8:9-40
+activity#org.big3.clyq.MainActivity
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:15:9-24:20
+	android:exported
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:16:13-36
+	android:configChanges
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:17:13-225
+	android:name
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/9fbecde6f474d69e9f9354732b52108c/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/9fbecde6f474d69e9f9354732b52108c/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/7b34780598acb45014d89bf71584d16c/transformed/navigation-common-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/7b34780598acb45014d89bf71584d16c/transformed/navigation-common-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/453e3eeb74bf1432eead31039a8884e1/transformed/navigation-runtime-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/453e3eeb74bf1432eead31039a8884e1/transformed/navigation-runtime-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/5234e7d5a1dabab07f6dc301e06f2d56/transformed/navigation-compose-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/5234e7d5a1dabab07f6dc301e06f2d56/transformed/navigation-compose-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/6cc0aca794e5394e6977c3f0155b0937/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/6cc0aca794e5394e6977c3f0155b0937/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:8:5-10:41
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/f3c21d724301d6eeb1f30fa4cfbbd510/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/f3c21d724301d6eeb1f30fa4cfbbd510/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/d99940034ff8236519851385b2526486/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/d99940034ff8236519851385b2526486/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/32c8cce2d583b0e98ad4462deedcd40d/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/32c8cce2d583b0e98ad4462deedcd40d/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/fdb29859967dbd90edcb3fb9b98f60cb/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/chih/.gradle/caches/8.9/transforms/fdb29859967dbd90edcb3fb9b98f60cb/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/chih/.gradle/caches/8.9/transforms/fb8c1608af7a02f019343afc6e3243bd/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/chih/.gradle/caches/8.9/transforms/fb8c1608af7a02f019343afc6e3243bd/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/chih/.gradle/caches/8.9/transforms/6ada73fdd28245a1c44b57db5edd9c48/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/chih/.gradle/caches/8.9/transforms/6ada73fdd28245a1c44b57db5edd9c48/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/chih/.gradle/caches/8.9/transforms/abbe1f856323ddd978016c0d4f8c2fd7/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/chih/.gradle/caches/8.9/transforms/abbe1f856323ddd978016c0d4f8c2fd7/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/chih/.gradle/caches/8.9/transforms/0dc574ed24494a1f56bbd49acd7bfbf3/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/chih/.gradle/caches/8.9/transforms/0dc574ed24494a1f56bbd49acd7bfbf3/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/e74a2214889c436475151bd1267180de/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/e74a2214889c436475151bd1267180de/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/3d6576de297a86662bf8ccc541e880a4/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/3d6576de297a86662bf8ccc541e880a4/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f848a9d33898b513edf78abc3881a2e6/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f848a9d33898b513edf78abc3881a2e6/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/2e51660e65ab4af697e20e27fde23f81/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/2e51660e65ab4af697e20e27fde23f81/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/79edea0580d472a984c665b63db8fdd9/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/79edea0580d472a984c665b63db8fdd9/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/a268d6fcb38151cd4bcea146416922c3/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/a268d6fcb38151cd4bcea146416922c3/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/df093f9d8bfe4a1c64e7e2afe8bae996/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/df093f9d8bfe4a1c64e7e2afe8bae996/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/94ff5dddabed5a06cf42c9352fd8e556/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/94ff5dddabed5a06cf42c9352fd8e556/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/6f86bfc19cb8eb0475b19ce2a54dacb4/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/6f86bfc19cb8eb0475b19ce2a54dacb4/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/7e85589706207b6b50d499b20c4e4277/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/7e85589706207b6b50d499b20c4e4277/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/9e14de297fbcd3921825cb8fb6e678e0/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/9e14de297fbcd3921825cb8fb6e678e0/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/70b71400906eb9bba292c4943dfb2b04/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/70b71400906eb9bba292c4943dfb2b04/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/6ddf032547d4f895b68cb36960b514ad/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/6ddf032547d4f895b68cb36960b514ad/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/1b62f41b73ff10c742bc3579385db7e5/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/1b62f41b73ff10c742bc3579385db7e5/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/chih/.gradle/caches/8.9/transforms/18a04ec5d6c5973daf6cb9afee74ec22/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/chih/.gradle/caches/8.9/transforms/18a04ec5d6c5973daf6cb9afee74ec22/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/9aa33ce5ef76dcceb6b4b8adf32ca92b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/9aa33ce5ef76dcceb6b4b8adf32ca92b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/chih/.gradle/caches/8.9/transforms/d1f24433ee28e61f93c9ef429dc3eb37/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/chih/.gradle/caches/8.9/transforms/d1f24433ee28e61f93c9ef429dc3eb37/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/da09d7c0801fed41e14c8ae0730c9272/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/da09d7c0801fed41e14c8ae0730c9272/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/41a3e21fb73767bb7563a1d33228ccb6/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/41a3e21fb73767bb7563a1d33228ccb6/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/chih/.gradle/caches/8.9/transforms/d45a528d93425ec6d13e569683edac5f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/chih/.gradle/caches/8.9/transforms/d45a528d93425ec6d13e569683edac5f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/c56219bac3608f292be4c8506d784371/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/c56219bac3608f292be4c8506d784371/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/73338e47c7431aaad18c88317019265e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/73338e47c7431aaad18c88317019265e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/e89b9f36f89df7adede8e1a0d19475c9/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/e89b9f36f89df7adede8e1a0d19475c9/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chih/.gradle/caches/8.9/transforms/b8ff1a924c01a51c386399a6edfd9caf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chih/.gradle/caches/8.9/transforms/b8ff1a924c01a51c386399a6edfd9caf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chih/.gradle/caches/8.9/transforms/534dcc7ef92e51caf20b44e1567d60f8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chih/.gradle/caches/8.9/transforms/534dcc7ef92e51caf20b44e1567d60f8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/1081bd55e3b92c5b1bc0d94f8d69df2d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/1081bd55e3b92c5b1bc0d94f8d69df2d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/6760320c7e9d8ba3a0e87e986a8e6a7d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/6760320c7e9d8ba3a0e87e986a8e6a7d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/216f614c548f1e6380edb6ba34749833/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/216f614c548f1e6380edb6ba34749833/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/chih/.gradle/caches/8.9/transforms/e8a460aa2f56e2a336ca0b8ee7d98e0a/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/chih/.gradle/caches/8.9/transforms/e8a460aa2f56e2a336ca0b8ee7d98e0a/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/8b0c76ece22886d076a4b7e1fa05e1c0/transformed/lifecycle-livedata-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/8b0c76ece22886d076a4b7e1fa05e1c0/transformed/lifecycle-livedata-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/b52d639194aee29a6ea297030137e919/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/b52d639194aee29a6ea297030137e919/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/1e1b99a4210dfe6e8238fb6ab8220968/transformed/lifecycle-livedata-core-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/1e1b99a4210dfe6e8238fb6ab8220968/transformed/lifecycle-livedata-core-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/519383cec93e3e1904cc692adec1f3fe/transformed/lifecycle-viewmodel-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/519383cec93e3e1904cc692adec1f3fe/transformed/lifecycle-viewmodel-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/fe62f3882499c95274066d848170afc8/transformed/lifecycle-livedata-core-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/fe62f3882499c95274066d848170afc8/transformed/lifecycle-livedata-core-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/41f101c15bb0c318058932ded16be5bf/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/41f101c15bb0c318058932ded16be5bf/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/c4482aee69231e774feef14da81c8ba7/transformed/lifecycle-viewmodel-savedstate-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/c4482aee69231e774feef14da81c8ba7/transformed/lifecycle-viewmodel-savedstate-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chih/.gradle/caches/8.9/transforms/0f6b707724dc66fe5540dae2a21b14b5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chih/.gradle/caches/8.9/transforms/0f6b707724dc66fe5540dae2a21b14b5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/c186dd7132bd6e03af347f168e872917/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/c186dd7132bd6e03af347f168e872917/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/2712a40b00aac444724ad9c2af246b3c/transformed/lifecycle-viewmodel-2.8.5/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/2712a40b00aac444724ad9c2af246b3c/transformed/lifecycle-viewmodel-2.8.5/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/395e3c0ce749f5e7aeac2df429b3330c/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/395e3c0ce749f5e7aeac2df429b3330c/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/491364e33139c4e7611ff65fdc6e0075/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/491364e33139c4e7611ff65fdc6e0075/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/0a11edfd9b3a4b66a801083ab0b009f8/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/0a11edfd9b3a4b66a801083ab0b009f8/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/477b8c2a53d0ddcf1dbd13c56409de46/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/477b8c2a53d0ddcf1dbd13c56409de46/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/ae028985e34ce85ae9e96c1b73689c98/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/chih/.gradle/caches/8.9/transforms/ae028985e34ce85ae9e96c1b73689c98/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/9c6a339d66613d7198e0cad82354a91d/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/9c6a339d66613d7198e0cad82354a91d/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/78a052fb5ab0a2f3be743169e72a851b/transformed/multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/78a052fb5ab0a2f3be743169e72a851b/transformed/multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/13337d07094e9fc48cca998d139625b5/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/13337d07094e9fc48cca998d139625b5/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/c76075077111c7baebb0fd59e632ebfa/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/c76075077111c7baebb0fd59e632ebfa/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/26c0a218faf770b54dd3fb5d1a61f75b/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/26c0a218faf770b54dd3fb5d1a61f75b/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/c7e30a3a2ebf9fdce2ed3c8492c1318c/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/c7e30a3a2ebf9fdce2ed3c8492c1318c/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/74a58b43ab57a817e839100791eebbe4/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/74a58b43ab57a817e839100791eebbe4/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/chih/.gradle/caches/8.9/transforms/ba8ff066096654f40382d700bf6ab0bc/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/chih/.gradle/caches/8.9/transforms/ba8ff066096654f40382d700bf6ab0bc/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.auth0.android:jwtdecode:2.0.0] /Users/chih/.gradle/caches/8.9/transforms/fb07f4268163777db8e315dc9a3cbb42/transformed/jwtdecode-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.auth0.android:jwtdecode:2.0.0] /Users/chih/.gradle/caches/8.9/transforms/fb07f4268163777db8e315dc9a3cbb42/transformed/jwtdecode-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/chih/.gradle/caches/8.9/transforms/4d8ec1814c357bd0cc91af4f30154a06/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/chih/.gradle/caches/8.9/transforms/4d8ec1814c357bd0cc91af4f30154a06/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/fd915f8712ec02f58aa01c59bc3361f9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/fd915f8712ec02f58aa01c59bc3361f9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/1a267f99f2aeb81d7c1508e9e7e9fde4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chih/.gradle/caches/8.9/transforms/1a267f99f2aeb81d7c1508e9e7e9fde4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/chih/.gradle/caches/8.9/transforms/57d7aa0bbe86f526d668f8e1249eb895/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/chih/.gradle/caches/8.9/transforms/57d7aa0bbe86f526d668f8e1249eb895/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/chih/.gradle/caches/8.9/transforms/1ef768fc21e0b4538445f8deef064cb1/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/chih/.gradle/caches/8.9/transforms/1ef768fc21e0b4538445f8deef064cb1/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+queries
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:14:5-22:15
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/AndroidManifest.xml:26:5-34:15
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/AndroidManifest.xml:26:5-34:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:15:9-21:18
+action#android.intent.action.VIEW
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:16:13-65
+	android:name
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:16:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:18:13-74
+	android:name
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:18:23-71
+data
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:20:13-44
+	android:scheme
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:20:19-41
+activity#com.auth0.android.provider.AuthenticationActivity
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:25:9-30:75
+	android:launchMode
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:29:13-44
+	android:exported
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:28:13-37
+	android:configChanges
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:27:13-115
+	android:theme
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:30:13-72
+	android:name
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:26:13-77
+activity#com.auth0.android.provider.RedirectActivity
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:31:9-47:20
+	android:exported
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:32:13-71
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${auth0Domain}+data:pathPrefix:/android/${applicationId}/callback+data:scheme:${auth0Scheme}
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:34:13-46:29
+	android:autoVerify
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:35:17-42
+	tools:targetApi
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:36:17-36
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:dev-j8fde724yfmga0ao.us.auth0.com+data:pathPrefix:/android/org.big3.clyq/callback+data:scheme:clyq
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:34:13-46:29
+	android:autoVerify
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:35:17-42
+	tools:targetApi
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:36:17-36
+category#android.intent.category.DEFAULT
+ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:39:27-73
+provider#org.jetbrains.compose.resources.AndroidContextProvider
+ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:8:9-13:20
+	android:enabled
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:10:13-84
+	android:exported
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.1] /Users/chih/.gradle/caches/8.9/transforms/1b3803c16f10d850d89f151cef1ae3ab/transformed/library-release/AndroidManifest.xml:9:13-82
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] /Users/chih/.gradle/caches/8.9/transforms/f6df9d7a33995999d92487b707dca5f6/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/7aaf5d779ea8620485cb49a90cc4704a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chih/.gradle/caches/8.9/transforms/219dd170e2fd1423b440ae776183209c/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#org.big3.clyq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#org.big3.clyq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/chih/.gradle/caches/8.9/transforms/a365233f35dc9fed455bc1ff5446d329/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/857ab3ba606cd61bd1d8be0540182900/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
