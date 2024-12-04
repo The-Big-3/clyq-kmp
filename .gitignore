@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -19,22 +19,42 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
-*.iml
-.gradle
-.idea
+# Android/Gradle build files
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# Ignore Kotlin build artifacts
+/kotlin/
+
+# IDE files (Android Studio, IntelliJ IDEA, VS Code, etc.)
+.idea/
+.vscode/
+
+# macOS-specific files
 .DS_Store
-build
-*/build
-captures
-.externalNativeBuild
-.cxx
+
+# Other generated files
+captures/
+.externalNativeBuild/
+.cxx/
 local.properties
 xcuserdata/
+
+# Pods (if you're using CocoaPods for iOS)
 Pods/
+
+# Android keystore files
 /androidApp/key
 *.jks
+
+# Node/Yarn lock files (if applicable)
 *yarn.lock
+
+# Kotlin Multiplatform shared build files
+shared/build/
