@@ -4740,23 +4740,6 @@
                     }
                 },
                 {
-                    "source": "/Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "317",
-                        "startColumns": "4",
-                        "startOffsets": "20575",
-                        "endColumns": "41",
-                        "endOffsets": "20612"
-                    }
-                },
-                {
                     "source": "/Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/res/values/values.xml",
                     "from": {
                         "startLines": "2,15,21,27,30",
@@ -4845,6 +4828,23 @@
                         "startOffsets": "17916",
                         "endColumns": "42",
                         "endOffsets": "17954"
+                    }
+                },
+                {
+                    "source": "/Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "317",
+                        "startColumns": "4",
+                        "startOffsets": "20575",
+                        "endColumns": "41",
+                        "endOffsets": "20612"
                     }
                 },
                 {

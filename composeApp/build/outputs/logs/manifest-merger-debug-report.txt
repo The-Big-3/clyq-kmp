@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/9fbecde6f474d69e9f9354732b52108c/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/7b34780598acb45014d89bf71584d16c/transformed/navigation-common-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/453e3eeb74bf1432eead31039a8884e1/transformed/navigation-runtime-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-compose:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/5234e7d5a1dabab07f6dc301e06f2d56/transformed/navigation-compose-2.8.4/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/AndroidManifest.xml:17:1-22:12
-MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/6cc0aca794e5394e6977c3f0155b0937/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:2:1-9:12
 MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:4:1-50:12
@@ -90,26 +90,26 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/chih/.gradle/caches/8.9/transforms/1ef768fc21e0b4538445f8deef064cb1/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 	package
-		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:4:5-66
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:4:5-66
 MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:12:5-67
 MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:5:5-78
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:5:22-76
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:5:22-76
 application
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:7:5-25:19
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:7:5-25:19
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:7:5-25:19
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:7:5-25:19
 MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
 MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
 MERGED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:24:5-48:19
@@ -131,45 +131,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chih/.gradle/caches/
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] /Users/chih/.gradle/caches/8.9/transforms/a0350f49678aa4ab50973d8f92a57e5e/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:13:9-35
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:11:9-41
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:12:9-54
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:10:9-43
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:14:9-72
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:14:9-72
 	android:name
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:8:9-40
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:8:9-40
 activity#org.big3.clyq.MainActivity
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:15:9-24:20
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:15:9-24:20
 	android:exported
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:16:13-36
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:16:13-36
 	android:configChanges
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:17:13-225
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:17:13-225
 	android:name
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:18:13-41
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:20:17-69
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:20:25-66
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:22:17-77
+ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:22:27-74
+		ADDED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/8c9a99c4a9bf24c1ad13e24dea914f81/transformed/navigation-common-2.8.4/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/9fbecde6f474d69e9f9354732b52108c/transformed/navigation-runtime-2.8.4/AndroidManifest.xml:20:5-44
@@ -182,8 +182,8 @@ MERGED from [androidx.navigation:navigation-compose:2.8.4] /Users/chih/.gradle/c
 MERGED from [androidx.navigation:navigation-compose:2.8.4] /Users/chih/.gradle/caches/8.9/transforms/5234e7d5a1dabab07f6dc301e06f2d56/transformed/navigation-compose-2.8.4/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/chih/.gradle/caches/8.9/transforms/c4c724c3c7c174faa550408b99dbf819/transformed/material3-release/AndroidManifest.xml:20:5-44
-MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/6cc0aca794e5394e6977c3f0155b0937/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:5:5-7:41
 MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/6cc0aca794e5394e6977c3f0155b0937/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:5:5-7:41
 MERGED from [io.insert-koin:koin-android:3.5.3] /Users/chih/.gradle/caches/8.9/transforms/2f75b571c6cbb90fe0e80f7aaa3c33a4/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
@@ -341,9 +341,9 @@ MERGED from [androidx.tracing:tracing:1.2.0] /Users/chih/.gradle/caches/8.9/tran
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chih/.gradle/caches/8.9/transforms/9e6178f3c6dd642634d71b497ac52d58/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/AndroidManifest.xml
 queries
 ADDED from [com.auth0.android:auth0:2.11.0] /Users/chih/.gradle/caches/8.9/transforms/e84b872c3c73b02a684ac957adfbc9c7/transformed/auth0-2.11.0/AndroidManifest.xml:14:5-22:15
 MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /Users/chih/.gradle/caches/8.9/transforms/35e285359d198f2ed1c2a025cbe36d24/transformed/androidbrowserhelper-2.4.0/AndroidManifest.xml:26:5-34:15

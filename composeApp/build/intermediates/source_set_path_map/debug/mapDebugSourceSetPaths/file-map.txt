@@ -60,13 +60,13 @@ org.big3.clyq.composeApp-animation-core-release-58 /Users/chih/.gradle/caches/8.
 org.big3.clyq.composeApp-appcompat-resources-1.6.1-59 /Users/chih/.gradle/caches/8.9/transforms/fb8c1608af7a02f019343afc6e3243bd/transformed/appcompat-resources-1.6.1/res
 org.big3.clyq.composeApp-coil-base-2.6.0-60 /Users/chih/.gradle/caches/8.9/transforms/fdb29859967dbd90edcb3fb9b98f60cb/transformed/coil-base-2.6.0/res
 org.big3.clyq.composeApp-lifecycle-livedata-core-ktx-2.8.5-61 /Users/chih/.gradle/caches/8.9/transforms/fe62f3882499c95274066d848170afc8/transformed/lifecycle-livedata-core-ktx-2.8.5/res
-org.big3.clyq.composeApp-pngs-62 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/generated/res/pngs/debug
-org.big3.clyq.composeApp-resValues-63 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/generated/res/resValues/debug
-org.big3.clyq.composeApp-packageDebugResources-64 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-org.big3.clyq.composeApp-packageDebugResources-65 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-org.big3.clyq.composeApp-debug-66 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/build/intermediates/merged_res/debug/mergeDebugResources
-org.big3.clyq.composeApp-androidDebug-67 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidDebug/res
-org.big3.clyq.composeApp-androidMain-68 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/androidMain/res
-org.big3.clyq.composeApp-debug-69 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/debug/res
-org.big3.clyq.composeApp-main-70 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/composeApp/src/main/res
-org.big3.clyq.composeApp-debug-71 /Users/chih/Documents/Person Projects/Big3/clyq-kmp/shared/build/intermediates/packaged_res/debug/packageDebugResources
+org.big3.clyq.composeApp-pngs-62 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/build/generated/res/pngs/debug
+org.big3.clyq.composeApp-resValues-63 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/build/generated/res/resValues/debug
+org.big3.clyq.composeApp-packageDebugResources-64 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.big3.clyq.composeApp-packageDebugResources-65 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.big3.clyq.composeApp-debug-66 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/build/intermediates/merged_res/debug/mergeDebugResources
+org.big3.clyq.composeApp-androidDebug-67 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidDebug/res
+org.big3.clyq.composeApp-androidMain-68 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/androidMain/res
+org.big3.clyq.composeApp-debug-69 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/debug/res
+org.big3.clyq.composeApp-main-70 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/composeApp/src/main/res
+org.big3.clyq.composeApp-debug-71 /Users/chih/Documents/Person Projects/Big3/Clqy_KMP/clyq-kmp/shared/build/intermediates/packaged_res/debug/packageDebugResources
